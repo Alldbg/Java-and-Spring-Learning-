@@ -1,0 +1,20 @@
+# Maven
+java -version
+
+mvn archetype:generate -DgroupId=org.ollydbg -DartifactId=parent-project
+cd parent-project
+mvn archetype:generate -DgroupId=org.ollydbg  -DartifactId=core
+mvn archetype:generate -DgroupId=org.ollydbg  -DartifactId=service
+mvn archetype:generate -DgroupId=org.ollydbg  -DartifactId=webapp
+
+
+mvn archetype:generate -DgroupId=org.ollydbg -DartifactId=core-java  -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn verify
+mvn build
+mvn install
+mvn clean install
+mvn compile
+mvn test
+mvn package
+mvn exec:java
