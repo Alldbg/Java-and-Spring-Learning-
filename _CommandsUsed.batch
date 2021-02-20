@@ -1,4 +1,4 @@
-# Maven
+// Mot Clés : ReviseQuesions
 java -version
 
 mvn archetype:generate -DgroupId=org.ollydbg -DartifactId=parent-project
@@ -18,3 +18,12 @@ mvn compile
 mvn test
 mvn package
 mvn exec:java
+
+gradle -v
+gradle build
+gradle build
+gradle run -debug
+gradle wrapper
+
+
+gradle init
